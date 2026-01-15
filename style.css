@@ -35,7 +35,7 @@ nav a:hover {
 /* Sidebar */
 .sidebar {
   width: 250px;
-  margin-right: 60px;
+  margin-right: 40px;
   background-color: rgba(0, 171, 68, 0.05); /* <-- ADD this line for a very faint green background */
   padding: 20px; /* optional, but looks nicer */
   border-radius: 5px; /* optional, for soft edges */
@@ -57,6 +57,8 @@ nav a:hover {
 
 .sidebar p {
   font-size: 0.9em;
+  margin-left: 10px; /* indent from left edge */
+  margin-right: 10px; /* optional: indent from right edge */
 }
 
 /* Main content */
