@@ -53,11 +53,12 @@ nav a:hover {
 
 .sidebar h3 {
   margin-bottom: 5px;
+  margin-left: 20px;
 }
 
 .sidebar p {
   font-size: 0.9em;
-  margin-left: 10px; /* indent from left edge */
+  margin-left: 20px; /* indent from left edge */
   margin-right: 10px; /* optional: indent from right edge */
 }
 
