@@ -75,3 +75,21 @@ h2 {
   margin-top: 2em;
 }
 
+/* Mobile layout */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;   /* stack sidebar and main */
+  }
+
+  .sidebar {
+    width: 100%;              /* full width */
+    margin-right: 0;
+    margin-bottom: 30px;      /* space before main text */
+  }
+
+  main {
+    width: 100%;
+  }
+}
+
+
