@@ -34,7 +34,7 @@ nav a:hover {
 
 /* Sidebar */
 .sidebar {
-  width: 250px;
+  width: 220px;
   margin-right: 40px;
   background-color: rgba(0, 171, 68, 0.05); /* <-- ADD this line for a very faint green background */
   padding: 20px; /* optional, but looks nicer */
@@ -75,21 +75,21 @@ h2 {
   margin-top: 2em;
 }
 
-/* Mobile layout */
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;   /* stack sidebar and main */
+    flex-direction: column;
   }
 
   .sidebar {
-    width: 100%;              /* full width */
-    margin-right: 0;
-    margin-bottom: 30px;      /* space before main text */
+    width: 90%;            /* narrower than screen */
+    max-width: 320px;      /* prevents it from getting too wide */
+    margin: 0 auto 30px;   /* centers it */
   }
 
   main {
     width: 100%;
   }
 }
+
 
 
